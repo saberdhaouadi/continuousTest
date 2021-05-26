@@ -1,0 +1,7 @@
+name: new action
+on: [push]
+jobs:
+  write-to-console:
+    runs-on: centos-8
+    steps:
+      - run: echo "Hello github"
